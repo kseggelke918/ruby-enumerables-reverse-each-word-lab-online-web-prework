@@ -6,7 +6,7 @@ def reverse_each_word(sentence1)
     new_string.push(sentence_array[i].reverse)
     i += 1
   end 
-  new_string.collect {|word| 
+  new_string.collect {|word| word.join}
     puts word
     end 
  end
