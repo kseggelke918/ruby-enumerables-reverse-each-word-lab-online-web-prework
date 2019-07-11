@@ -1,12 +1,10 @@
 def reverse_each_word(sentence1)
   sentence_array = sentence1.split(" ")
-  new_string = []
+  string_array = []
   i = 0 
   while i < sentence_array.length do
-    new_string.push(sentence_array[i].reverse)
+    string_array.push(sentence_array[i].reverse)
     i += 1
   end 
-  new_string.collect {|word| word.join}
-    puts word
-    end 
+  new_string = string_array.join(" ")
  end
