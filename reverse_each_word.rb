@@ -11,5 +11,7 @@
  
  def reverse_each_word(sentence1)
    sentence_array = sentence1.split(" ")
-   sentence_array.collect {|word| "#{word.reverse.join}"}
+   sentence_array.collect do |word| 
+     puts "#{word.reverse}"
+   end 
  end 
