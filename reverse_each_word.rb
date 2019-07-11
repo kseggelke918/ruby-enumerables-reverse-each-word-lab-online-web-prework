@@ -6,5 +6,7 @@ def reverse_each_word(sentence1)
     new_string.push(sentence_array[i].reverse)
     i += 1
   end 
-  return new_string 
- end 
+  new_string.each do |word|
+    puts word 
+    end 
+ end
