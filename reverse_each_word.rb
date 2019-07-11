@@ -7,6 +7,6 @@ def reverse_each_word(sentence1)
     i += 1
   end 
   new_string.collect(" ") do |word|
-    puts word.join 
+    puts word
     end 
  end
